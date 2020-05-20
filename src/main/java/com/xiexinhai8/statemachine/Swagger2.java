@@ -49,7 +49,7 @@ public class Swagger2 implements WebMvcConfigurer {
     UiConfiguration uiConfig() {
         return UiConfigurationBuilder.builder()
                 .displayRequestDuration(true)
-                .validatorUrl("https://swagger-validator.corp.kuaishou.com/validator/")
+                .validatorUrl("https://swagger-validator.corp.xiexinhai8.com/validator/")
                 .build();
     }
 }
